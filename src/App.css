@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+.heading {
+  text-align: center;
+  background: #ccffff;
+  color: #000;
+  padding: 25px;
+}
+.title {
+  color: red;
+  padding: 5px;
+  text-align: center;
+}
+.lead-char {
+  padding: 5px;
+  color: green;
+  text-align: center;
+}
+.cartoon-img {
+  width: 600px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.click-btn a{
+  text-decoration: none;
+  color:  #e50913;
+  
+}
+.click-btn{
+  height: 50px;
+  width: 120px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.click-btn:hover{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
